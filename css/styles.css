@@ -99,6 +99,21 @@
   transform: scale(1.1);
 }
 
+.size-opp {
+  height: 40vh;
+}
+
+@media only screen and (max-height: 800px) {
+  .shape2 {
+    height: 55vh;
+  }
+  .seance-size {
+    height: 55vh;
+  }
+  .size-sante {
+    height: 58vh;
+  }
+}
 *, ::after, ::before {
   box-sizing: border-box;
   margin: 0;
